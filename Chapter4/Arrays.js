@@ -16,3 +16,15 @@ console.log(marks[5]);
 console.log(marks[10]);
 marks[0]=90;
 console.log(marks[0]);
+//Arrays are mutable means can be changeable
+/* Looping over an Array: print all the elements from the array 
+*/
+let a1=["A","B","C","D","E"];
+for(let i=0;i<a1.length;i++)
+{
+   console.log(a1[i]);
+}
+for(let j of a1)
+{
+   console.log(j);
+}
