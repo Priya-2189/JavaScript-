@@ -1,0 +1,19 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(59, 46, 202);
+}
+#heading{
+    background-color: blue;
+    text-decoration: dashed;
+}
+.header
+{
+    background-color: aqua;
+}
+/* p{
+  background-color: blueviolet;
+} */
+body{
+    background-color: pink;
+}
