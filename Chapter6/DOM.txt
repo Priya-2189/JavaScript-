@@ -1,0 +1,41 @@
+!<!-- Wrting the code in there respective file it
+provide the readability,,modular,browser cahing -->
+Window Object:
+ This window object represents an open window in browser .
+ It is browser's object(not js)& is automatically created by broswer.
+ it is global object with lots of properties &methods.
+ What is DOM?
+  when a web page is loaded ,the browser creates a Document
+  Object Model(DOM) of the page.
+  we can see the code of html through js
+**DOM Manipulation:
+**the script tags are accessed inside the body only
+Selecting with id
+**document.getElementById("myId")
+**for id we have to give unique ids to each elements
+DOM Manipulation
+
+Properties
+
+tagName: returns tag for element nodes
+innerText: returns the text content of the element and all its children
+innerHTML: returns the plain text or HTML contents in the element
+textContent: returns textual content even for hidden elements
+
+DOM Manipulation:
+Attributes: which inside the html tags like 
+ex: src,id,class
+  *getAttributes :div.getAttributes()
+  *setAttributes:div.setAttributes()
+Insert Elements
+
+let el = document.createElement("div")
+
+node.append( el ) //adds at the end of node (inside)
+node.prepend( el ) //adds at the start of node (inside)
+node.before( el ) //adds before the node (outside)
+node.after( el ) //adds after the node (outside)
+
+Delete Element
+
+node.remove( ) //removes the node  
