@@ -12,3 +12,34 @@ Due to synchronous programming, sometimes imp instructions
 get blocked due to some previous instructions, which causes 
 a delay in the UI. Asynchronous code execution allows to execute 
 next instructions immediately and doesn’t block the flow.
+//CallBacks:
+A callback is a function passed as an argument to another function
+//CallBack Hell:
+Nested callbacks stacked below one another forming a pyramid structure
+This style of programming becomes difficult to understand &manage
+//Promies:
+Promises is for eventual completion of task.It is an object in JS it is a solution to callbackhell.
+ex: let promises new promises((resolve,reject)=>{
+    ....
+})
+//Promises:
+A JAVASCRIPT Promise Object can be:
+Pending: the result is undefined
+Resolved: the result is a value (fullfilled)
+Rejected:the result is an error object
+Promises:
+.then()&.catch()
+.then(): is u have any pending promises
+ they will sent into it nd they are fullfilled.
+promise.then((res)=>{...})
+.catch() is used to show the error of promises
+promise.catch((err)=>{...})
+
+//Async-Await:
+async function always returns a promise
+aync function Myfn(){
+    ...
+}
+Await pauses the excuteion of its surronding
+ async function until the promise is settled
+IIFE is a function is called immediately as soon as it is defined. 
