@@ -1,0 +1,21 @@
+Prototypes:
+*A javaScript is a entity  having state and behaviour(properties and methods).
+js object have a special property called prototye.
+we can set prototye using __proto__
+*if object and prototye have same method,object's method will be used.
+Classes & Objects:
+Class is a program-code template for creating objects.
+Those objects will have some state(variables)&some behaviour(functions )inside it.
+Constructor():
+automatically invoked when the obj is initialised  by new
+Inhertiance in JS:
+Passing down properties & methods from parents class to child class.
+by using extends we can inherit the parent class.
+
+Method Overriding:
+If both class have the same methods the child may or may not it can override the method.
+//Super:
+ keyword is used invoke the  parent class Constructor.
+
+ //Error Handling:
+  
